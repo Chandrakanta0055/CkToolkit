@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
+import { Package } from "lucide-react";
 
 export default function Navbar() {
   return (
@@ -11,18 +11,12 @@ export default function Navbar() {
       
       <div className="container mx-auto flex h-16 items-center px-4 max-w-7xl">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-3 mr-8 group">
-          <div className="relative h-9 w-9 shrink-0 group-hover:scale-110 transition-transform duration-300">
-            <Image
-              src="/logo.png"
-              alt="OneToolkit Logo"
-              fill
-              className="object-contain drop-shadow-[0_0_8px_rgba(123,97,255,0.6)]"
-              priority
-            />
+        <Link href="/" className="flex items-center gap-3 group">
+          <div className="h-10 w-10 flex items-center justify-center rounded-xl bg-gradient-to-br from-soft-blue to-vibrant-purple transition-all duration-500 group-hover:scale-110 group-hover:rotate-12 shadow-[0_0_20px_rgba(79,140,255,0.3)]">
+            <Package className="h-6 w-6 text-white" />
           </div>
-          <span className="font-black text-xl tracking-tighter text-[#E2E8F0] group-hover:text-white transition-colors">
-            <span className="font-extrabold">One</span>Toolkit
+          <span className="text-xl font-black tracking-tighter text-white">
+            CK<span className="text-transparent bg-clip-text bg-gradient-to-r from-soft-blue to-vibrant-purple">Toolkit</span>
           </span>
         </Link>
 

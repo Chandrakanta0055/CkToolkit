@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "UUID Generator",
-  description: "Generate universally unique identifiers (UUIDs) in v1 and v4 format instantly. Copy, batch generate, and use in your projects.",
+  title: "UUID Generator | CKToolkit",
+  description: "Generate unique v1 and v4 UUIDs instantly. Secure, in-browser generation for your development needs.",
   keywords: ["UUID generator", "generate UUID", "GUID generator", "unique ID generator", "UUID v4 online"],
 };

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | OneToolkit",
-  description: "OneToolkit Privacy Policy: Learn why we are the most secure tool platform on the web. We don't store your data.",
+  title: "Privacy Policy | CKToolkit",
+  description: "CKToolkit Privacy Policy: Learn why we are the most secure tool platform on the web. We don't store your data.",
 };
 
 export default function PrivacyPage() {
@@ -28,15 +28,41 @@ export default function PrivacyPage() {
           <section>
             <h2 className="text-lg font-black text-white uppercase tracking-widest mb-4">01. Our Core Principle</h2>
             <p>
-              Your privacy is not a feature; it is the foundation of OneToolkit. We have designed this platform so that we never even possess your personal data. 
+              Your privacy is not a feature; it is the foundation of <span className="text-white font-bold">CKToolkit</span>. We have designed this platform so that we never even possess your personal data. 
             </p>
           </section>
 
           <section>
-            <h2 className="text-lg font-black text-white uppercase tracking-widest mb-4">02. Browser-Side Processing</h2>
-            <p>
-              All tools on OneToolkit — including image compression, PDF merging, and developer utilities — execute **entirely within your web browser**. Your files and text inputs are handled by your local machine's hardware. Nothing is uploaded to our servers for processing.
+            <h2 className="text-2xl font-black text-white mb-6 flex items-center gap-3">
+              <span className="h-8 w-1 bg-soft-blue rounded-full" />
+              100% Client-Side Processing
+            </h2>
+            <p className="leading-relaxed">
+              At <span className="text-white font-bold">CKToolkit</span>, we believe that your data should never leave your computer unless you explicitly choose to share it. Our entire platform is built using modern browser technologies that allow us to process images, PDFs, and code directly on your machine.
             </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-black text-white mb-6 flex items-center gap-3">
+              <span className="h-8 w-1 bg-vibrant-purple rounded-full" />
+              Zero-Server Policy
+            </h2>
+            <p className="leading-relaxed mb-6">
+              When you use our tools, such as the Image Compressor or PDF Merger:
+            </p>
+            <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 not-prose">
+              {[
+                "No files are ever uploaded to a server.",
+                "No personal data is collected or tracked.",
+                "No history of your files is kept by our systems.",
+                "All processing happens in your local browser memory."
+              ].map((item, i) => (
+                <li key={i} className="flex items-center gap-3 p-4 rounded-xl bg-white/[0.02] border border-white/[0.05] text-[#94A3B8] text-sm">
+                  <div className="h-2 w-2 rounded-full bg-soft-blue shadow-[0_0_8px_rgba(79,140,255,0.5)]" />
+                  {item}
+                </li>
+              ))}
+            </ul>
           </section>
 
           <section>
@@ -49,7 +75,7 @@ export default function PrivacyPage() {
           <section>
             <h2 className="text-lg font-black text-white uppercase tracking-widest mb-4">04. Analytics</h2>
             <p>
-              We may use minimal, privacy-respecting analytics to understand high-level usage patterns (e.g., which tools are most popular) to improve the service. This data is aggregated and contains no personally identifiable information.
+              We may use minimal, privacy-respecting analytics to understand high-level usage patterns to improve the service. This data is aggregated and contains no personally identifiable information.
             </p>
           </section>
 

@@ -103,17 +103,18 @@ export default function Home() {
             Soft Neon Glass Interface
           </div>
 
-          <h1 className="text-5xl md:text-8xl font-black tracking-tighter mb-10 leading-[0.85] text-[#E2E8F0]">
-            The Power of One.<br className="md:hidden" />
-            <span className="text-neon-gradient block mt-4 pb-2">
-              OneToolkit.
-            </span>
-          </h1>
-
-          <p className="text-lg md:text-xl text-[#94A3B8] max-w-2xl mx-auto mb-16 leading-relaxed font-medium">
-            Essential tools for modern creators. Built with privacy, speed, and 
-            a premium futuristic aesthetic in mind.
-          </p>
+            <p className="text-white/60 text-lg md:text-xl font-medium tracking-tight mb-8">
+              The Power of One. <span className="text-white font-bold italic">CKToolkit.</span>
+            </p>
+            <h1 className="text-5xl md:text-8xl font-black text-white tracking-[ -0.05em] leading-[0.9] mb-8">
+              The Power of One. <br />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-soft-blue via-vibrant-purple to-soft-blue animate-gradient-x">
+                CKToolkit.
+              </span>
+            </h1>
+            <p className="text-[#94A3B8] text-lg md:text-xl max-w-2xl mx-auto leading-relaxed font-medium">
+              Essential tools for modern creators. Built with privacy, speed, and a premium futuristic aesthetic in mind.
+            </p>
           
 
           {/* Search Box with Soft Glow */}

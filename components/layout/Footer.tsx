@@ -64,7 +64,7 @@ export default function Footer() {
               {[
                 { label: "Privacy Policy", href: "/privacy" },
                 { label: "Terms of Service", href: "/terms" },
-                { label: "About OneToolkit", href: "/about" },
+                { label: "About CKToolkit", href: "/about" },
               ].map((link) => (
                 <li key={link.href}>
                   <Link
@@ -82,7 +82,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-14 pt-6 border-t border-white/[0.04] flex flex-col md:flex-row justify-between items-center gap-3">
           <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-white/15">
-            © {new Date().getFullYear()} OneToolkit Labs · All Rights Reserved
+            © {new Date().getFullYear()} CKToolkit Labs · All Rights Reserved
           </p>
           <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-white/15">
             Made with ♥ for the Open Web

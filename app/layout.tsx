@@ -17,17 +17,13 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "OneToolkit — Free Online Tools for Developers & Creators",
-    template: "%s | OneToolkit",
+    default: "CKToolkit — Free Online Tools for Developers & Creators",
+    template: "%s | CKToolkit",
   },
-  description: "OneToolkit offers 15+ free, fast, and privacy-first tools. Compress images, format JSON, merge PDFs, generate QR codes, and more — all in your browser.",
-  keywords: [
-    "online tools", "free tools", "image compressor", "JSON formatter", "PDF merger",
-    "QR code generator", "password generator", "Base64 encoder", "UUID generator",
-    "image converter", "image resize", "text diff checker", "unit converter", "word counter"
-  ],
-  authors: [{ name: "OneToolkit" }],
-  creator: "OneToolkit",
+  description: "A premium suite of free, private, and fast online tools. Image manipulation, PDF tools, developer utilities and more.",
+  keywords: ["online tools", "developer tools", "image compressor", "pdf merger", "cktoolkit"],
+  authors: [{ name: "CKToolkit" }],
+  creator: "CKToolkit",
   openGraph: {
     type: "website",
     locale: "en_US",

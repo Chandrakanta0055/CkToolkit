@@ -20,36 +20,33 @@ export default function AboutPage() {
         <div className="mb-16">
           <div className="h-1 w-12 rounded-full bg-gradient-to-r from-soft-blue to-vibrant-purple mb-5" />
           <h1 className="text-4xl md:text-6xl font-black tracking-tighter mb-5 text-white">
-            About <span className="text-neon-gradient">OneToolkit</span>
+            About <span className="text-neon-gradient">CKToolkit</span>
           </h1>
-          <p className="text-xl text-[#94A3B8] max-w-2xl leading-relaxed font-medium">
-            Fast. Free. Private. OneToolkit is built for the modern creator who values speed and security above all else.
+          <p className="text-[#94A3B8] text-lg md:text-xl max-w-2xl mx-auto leading-relaxed font-medium mb-12">
+            The story behind the power of one.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-20 text-sm leading-relaxed text-[#94A3B8]">
-          <div className="p-8 rounded-3xl bg-white/[0.03] border border-white/10 backdrop-blur-md">
-            <h3 className="text-lg font-black text-white mb-4 italic tracking-tight">01. Privacy First</h3>
-            <p>
-              Unlike most online tool providers, we don't store your data. Every image compression, PDF merge, or text conversion happens directly in your browser. Our servers never see your files.
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-24">
+          <div className="p-8 rounded-3xl bg-white/[0.03] border border-white/[0.05] backdrop-blur-sm">
+            <h2 className="text-2xl font-black text-white mb-6">Our Mission</h2>
+            <p className="text-[#94A3B8] leading-relaxed">
+              CKToolkit was born out of a simple idea: that powerful, high-quality tools should be accessible to everyone, without compromising on privacy or performance. We believe in the "Power of One"—one single platform that provides everything a modern creator needs.
             </p>
           </div>
-          <div className="p-8 rounded-3xl bg-white/[0.03] border border-white/10 backdrop-blur-md">
-            <h3 className="text-lg font-black text-white mb-4 italic tracking-tight">02. Lightning Fast</h3>
-            <p>
-              By utilizing your own computer's hardware for processing, we eliminate upload and download wait times. It's as fast as your CPU can handle.
+          <div className="p-8 rounded-3xl bg-white/[0.03] border border-white/[0.05] backdrop-blur-sm">
+            <h2 className="text-2xl font-black text-white mb-6">Privacy First</h2>
+            <p className="text-[#94A3B8] leading-relaxed">
+              Your data is yours. Unlike other "free" tools, CKToolkit processes everything locally in your browser. We never see, touch, or store your sensitive files. It's the ultimate combination of convenience and security.
             </p>
           </div>
-          <div className="p-8 rounded-3xl bg-white/[0.03] border border-white/10 backdrop-blur-md">
-            <h3 className="text-lg font-black text-white mb-4 italic tracking-tight">03. Developer Minded</h3>
-            <p>
-              From JSON formatting to UUID generation, we build the tools we use ourselves every day. Clean, distraction-free, and high-performance.
-            </p>
-          </div>
-          <div className="p-8 rounded-3xl bg-white/[0.03] border border-white/10 backdrop-blur-md">
-            <h3 className="text-lg font-black text-white mb-4 italic tracking-tight">04. Forever Free</h3>
-            <p>
-              Essential tools should be available to everyone without a paywall. We are committed to keeping OneToolkit accessible and open.
+        </div>
+
+        <div className="p-12 rounded-[40px] bg-gradient-to-br from-soft-blue/10 to-vibrant-purple/10 border border-white/[0.05] relative overflow-hidden mb-24">
+          <div className="relative z-10 max-w-3xl mx-auto text-center">
+            <h2 className="text-3xl md:text-4xl font-black text-white mb-8">Simple. Fast. Beautiful.</h2>
+            <p className="text-[#94A3B8] text-lg leading-relaxed mb-8">
+              We focus on "Soft Neon Glass" aesthetics to make your daily tasks feel more like a premium experience rather than a chore. Whether you're a developer needing to format JSON or a designer compressing images, CKToolkit is built for you.
             </p>
           </div>
         </div>

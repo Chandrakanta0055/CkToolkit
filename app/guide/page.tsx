@@ -332,7 +332,7 @@ export default function GuidePage() {
             Tools Guide
           </h1>
           <p className="text-lg text-[#94A3B8] max-w-2xl leading-relaxed">
-            Everything you need to know to get the most out of every tool in OneToolkit.
+            Everything you need to know to get the most out of every tool in CKToolkit.
             Step-by-step instructions, tips, and a direct link to each tool.
           </p>
         </div>

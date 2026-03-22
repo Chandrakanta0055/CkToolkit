@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Resize Image",
-  description: "Resize images to any pixel dimension quickly and accurately. Supports aspect ratio locking, custom width/height, and cropping. 100% browser-based.",
-  keywords: ["resize image", "image resizer online", "resize PNG", "change image dimensions", "crop image"],
+  title: "Resize Image | CKToolkit",
+  description: "Scale images to exact dimensions or by percentage. Fast, free, and completely private image resizing.",
+  keywords: ["resize image", "image scaler", "crop image online", "image dimensions", "cktoolkit"],
 };
