@@ -8,12 +8,12 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 w-full border-b border-white/5 bg-[#0B0F1A]/80 backdrop-blur-xl">
       {/* Brand Gradient Accent Line */}
       <div className="absolute top-0 left-0 right-0 h-[1.5px] bg-gradient-to-r from-soft-blue/0 via-vibrant-purple to-logo-cyan/0" />
-      
+
       <div className="container mx-auto flex h-16 items-center px-4 max-w-7xl">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3 group">
           <div className="relative h-10 w-10 flex items-center justify-center rounded-xl bg-white/[0.03] border border-white/10 transition-all duration-500 group-hover:scale-110 group-hover:rotate-12">
-            <Image src="/logo.png" alt="CkToolKit Logo" fill className="object-contain p-1.5" />
+            <Image src="/logo.png" alt="CkToolKit Logo" fill sizes="40px" className="object-contain p-1.5" />
           </div>
           <span className="text-xl font-black tracking-tighter text-white">
             Ck<span className="text-transparent bg-clip-text bg-gradient-to-r from-soft-blue to-vibrant-purple">ToolKit</span>

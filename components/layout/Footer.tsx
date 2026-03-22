@@ -22,8 +22,8 @@ export default function Footer() {
           {/* Brand Column */}
           <div className="flex flex-col gap-4 col-span-1">
             <Link href="/" className="flex items-center gap-3 group">
-              <div className="relative h-8 w-8 shrink-0">
-                <Image src="/logo.png" alt="CkToolKit Logo" fill className="object-contain" />
+              <div className="relative h-10 w-10 flex items-center justify-center rounded-xl bg-white/[0.03] border border-white/10 transition-all duration-500 group-hover:scale-110 group-hover:rotate-12 shrink-0">
+                <Image src="/logo.png" alt="CkToolKit Logo" fill sizes="40px" className="object-contain p-1.5" />
               </div>
               <span className="font-black text-lg tracking-tight text-[#E2E8F0] group-hover:text-white transition-colors">
                 Ck<span className="text-transparent bg-clip-text bg-gradient-to-r from-soft-blue to-vibrant-purple">ToolKit</span>
