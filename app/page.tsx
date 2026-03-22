@@ -104,12 +104,12 @@ export default function Home() {
           </div>
 
             <p className="text-white/60 text-lg md:text-xl font-medium tracking-tight mb-8">
-              The Power of One. <span className="text-white font-bold italic">CKToolkit.</span>
+              The Power of One. <span className="text-white font-bold italic">CkToolKit.</span>
             </p>
             <h1 className="text-5xl md:text-8xl font-black text-white tracking-[ -0.05em] leading-[0.9] mb-8">
               The Power of One. <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-soft-blue via-vibrant-purple to-soft-blue animate-gradient-x">
-                CKToolkit.
+                CkToolKit.
               </span>
             </h1>
             <p className="text-[#94A3B8] text-lg md:text-xl max-w-2xl mx-auto leading-relaxed font-medium">

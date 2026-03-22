@@ -17,25 +17,25 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "CKToolkit — Free Online Tools for Developers & Creators",
-    template: "%s | CKToolkit",
+    default: "CkToolKit — Free Online Tools for Developers & Creators",
+    template: "%s | CkToolKit",
   },
   description: "A premium suite of free, private, and fast online tools. Image manipulation, PDF tools, developer utilities and more.",
   keywords: ["online tools", "developer tools", "image compressor", "pdf merger", "cktoolkit"],
-  authors: [{ name: "CKToolkit" }],
-  creator: "CKToolkit",
+  authors: [{ name: "CkToolKit" }],
+  creator: "CkToolKit",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://cktoolkit.com",
-    siteName: "CKToolkit",
-    title: "CKToolkit — Free Online Tools for Everyone",
+    siteName: "CkToolKit",
+    title: "CkToolKit — Free Online Tools for Everyone",
     description: "Compress images, merge PDFs, format JSON, generate QR codes & more. Free, fast, and 100% private — everything runs in your browser.",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "CKToolkit" }],
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "CkToolKit" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "CKToolkit — Free Online Tools",
+    title: "CkToolKit — Free Online Tools",
     description: "15+ free tools for developers & creators. 100% private, no uploads.",
     images: ["/og-image.png"],
   },

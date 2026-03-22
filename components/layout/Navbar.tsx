@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Package } from "lucide-react";
+import Image from "next/image";
 
 export default function Navbar() {
   return (
@@ -12,11 +12,11 @@ export default function Navbar() {
       <div className="container mx-auto flex h-16 items-center px-4 max-w-7xl">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3 group">
-          <div className="h-10 w-10 flex items-center justify-center rounded-xl bg-gradient-to-br from-soft-blue to-vibrant-purple transition-all duration-500 group-hover:scale-110 group-hover:rotate-12 shadow-[0_0_20px_rgba(79,140,255,0.3)]">
-            <Package className="h-6 w-6 text-white" />
+          <div className="relative h-10 w-10 flex items-center justify-center rounded-xl bg-white/[0.03] border border-white/10 transition-all duration-500 group-hover:scale-110 group-hover:rotate-12">
+            <Image src="/logo.png" alt="CkToolKit Logo" fill className="object-contain p-1.5" />
           </div>
           <span className="text-xl font-black tracking-tighter text-white">
-            CK<span className="text-transparent bg-clip-text bg-gradient-to-r from-soft-blue to-vibrant-purple">Toolkit</span>
+            Ck<span className="text-transparent bg-clip-text bg-gradient-to-r from-soft-blue to-vibrant-purple">ToolKit</span>
           </span>
         </Link>
 

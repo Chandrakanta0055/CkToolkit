@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | CKToolkit",
-  description: "CKToolkit Privacy Policy: Learn why we are the most secure tool platform on the web. We don't store your data.",
+  title: "Privacy Policy | CkToolKit",
+  description: "CkToolKit Privacy Policy: Learn why we are the most secure tool platform on the web. We don't store your data.",
 };
 
 export default function PrivacyPage() {
@@ -28,7 +28,7 @@ export default function PrivacyPage() {
           <section>
             <h2 className="text-lg font-black text-white uppercase tracking-widest mb-4">01. Our Core Principle</h2>
             <p>
-              Your privacy is not a feature; it is the foundation of <span className="text-white font-bold">CKToolkit</span>. We have designed this platform so that we never even possess your personal data. 
+              Your privacy is not a feature; it is the foundation of <span className="text-white font-bold">CkToolKit</span>. We have designed this platform so that we never even possess your personal data. 
             </p>
           </section>
 
@@ -38,7 +38,7 @@ export default function PrivacyPage() {
               100% Client-Side Processing
             </h2>
             <p className="leading-relaxed">
-              At <span className="text-white font-bold">CKToolkit</span>, we believe that your data should never leave your computer unless you explicitly choose to share it. Our entire platform is built using modern browser technologies that allow us to process images, PDFs, and code directly on your machine.
+              At <span className="text-white font-bold">CkToolKit</span>, we believe that your data should never leave your computer unless you explicitly choose to share it. Our entire platform is built using modern browser technologies that allow us to process images, PDFs, and code directly on your machine.
             </p>
           </section>
 

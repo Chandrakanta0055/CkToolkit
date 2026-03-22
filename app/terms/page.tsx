@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms of Service | CKToolkit",
-  description: "Terms of Service for using CKToolkit.",
+  title: "Terms of Service | CkToolKit",
+  description: "Terms of Service for using CkToolKit.",
 };
 
 export default function TermsPage() {
@@ -28,14 +28,14 @@ export default function TermsPage() {
           <section>
             <h2 className="text-lg font-black text-white uppercase tracking-widest mb-4">01. Acceptance</h2>
             <p>
-              By accessing CKToolkit, you agree to use our services responsibly and in accordance with these simple terms.
+              By accessing CkToolKit, you agree to use our services responsibly and in accordance with these simple terms.
             </p>
           </section>
 
           <section>
             <h2 className="text-lg font-black text-white uppercase tracking-widest mb-4">02. "As Is" Service</h2>
             <p>
-              CKToolkit is provided "as is" and "as available". While we strive for 100% accuracy and uptime, we make no warranties regarding the output or reliability of individual tools. Always verify critical data separately.
+              CkToolKit is provided "as is" and "as available". While we strive for 100% accuracy and uptime, we make no warranties regarding the output or reliability of individual tools. Always verify critical data separately.
             </p>
           </section>
 
@@ -54,7 +54,7 @@ export default function TermsPage() {
           </section>
 
           <section className="text-center pt-8 border-t border-white/5">
-             <p className="text-xs">Enjoy using CKToolkit responsibly! 🚀</p>
+             <p className="text-xs">Enjoy using CkToolKit responsibly! 🚀</p>
           </section>
         </div>
       </div>

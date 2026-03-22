@@ -23,10 +23,10 @@ export default function Footer() {
           <div className="flex flex-col gap-4 col-span-1">
             <Link href="/" className="flex items-center gap-3 group">
               <div className="relative h-8 w-8 shrink-0">
-                <Image src="/logo.png" alt="CKToolkit Logo" fill className="object-contain" />
+                <Image src="/logo.png" alt="CkToolKit Logo" fill className="object-contain" />
               </div>
               <span className="font-black text-lg tracking-tight text-[#E2E8F0] group-hover:text-white transition-colors">
-                <span className="font-extrabold">One</span>Toolkit
+                Ck<span className="text-transparent bg-clip-text bg-gradient-to-r from-soft-blue to-vibrant-purple">ToolKit</span>
               </span>
             </Link>
             <p className="text-sm text-[#94A3B8] leading-relaxed max-w-xs">
@@ -64,7 +64,7 @@ export default function Footer() {
               {[
                 { label: "Privacy Policy", href: "/privacy" },
                 { label: "Terms of Service", href: "/terms" },
-                { label: "About CKToolkit", href: "/about" },
+                { label: "About CkToolKit", href: "/about" },
               ].map((link) => (
                 <li key={link.href}>
                   <Link
@@ -82,7 +82,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-14 pt-6 border-t border-white/[0.04] flex flex-col md:flex-row justify-between items-center gap-3">
           <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-white/15">
-            © {new Date().getFullYear()} CKToolkit Labs · All Rights Reserved
+            © {new Date().getFullYear()} CkToolKit Labs · All Rights Reserved
           </p>
           <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-white/15">
             Made with ♥ for the Open Web
