@@ -33,9 +33,18 @@ const StatCard = ({ label, value, icon: Icon, colorBg, colorText }: any) => (
   </div>
 );
 
-export default function WordCounterPage() {
-  const [text, setText] = useState('');
-
+  return (
+    <ToolLayout title="Word Counter" description="Analyze your text with advanced word, character, sentence, and paragraph counting statistics." toolId="word-counter">
+      <div className="flex flex-col gap-6">
+        {/* Stats Grid */}
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+          <StatCard label="Words" value={stats.words} icon={Type} colorBg="bg-blue-500/10" colorText="text-blue-500" />
+          <StatCard label="Characters" value={stats.chars} icon={Hash} colorBg="bg-purple-500/10" colorText="text-purple-500" />
+          <StatCard label="No Spaces" value={stats.charsNoSpaces} icon={Keyboard} colorBg="bg-pink-500/10" colorText="text-pink-500" />
+          <StatCard label="Sentences" value={stats.sentences} icon={AlignLeft} colorBg="bg-emerald-500/10" colorText="text-emerald-500" />
+          <StatCard label="Paragraphs" value={stats.paragraphs} icon={AlignLeft} colorBg="bg-orange-500/10" colorText="text-orange-500" />
+          <StatCard label="Reading Time" value={`${stats.readingTime}m`} icon={Clock} colorBg="bg-cyan-500/10" colorText="text-cyan-500" />
+        </div>
         {/* Input Area */}
         <div className="flex flex-col gap-2">
           <div className="flex items-center justify-between">
