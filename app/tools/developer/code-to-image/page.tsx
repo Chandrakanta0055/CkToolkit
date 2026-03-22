@@ -38,7 +38,17 @@ const LANGUAGES = [
 ];
 
 export default function CodeToImagePage() {
-  const [code, setCode] = useState(`function helloWorld() {\n  console.log("Welcome to OneToolkit Snap!");\n\n  const stats = {\n    speed: "Instant",\n    privacy: "100%",\n    style: "Premium"\n  };\n\n  return stats;\n}`);
+  const [code, setCode] = useState(`function helloWorld() {
+  console.log("Welcome to CKToolkit Snap!");
+
+  const stats = {
+    speed: "Instant",
+    privacy: "100%",
+    style: "Premium"
+  };
+
+  return stats;
+}`);
   const [language, setLanguage] = useState("javascript");
   const [theme, setTheme] = useState(oneDark);
   const [background, setBackground] = useState(GRADIENTS[0]);
@@ -61,7 +71,7 @@ export default function CodeToImagePage() {
         : await toJpeg(exportRef.current, { cacheBust: true, pixelRatio: 2, quality: 1 });
       
       const link = document.createElement("a");
-      link.download = `onetoolkit-snap-${Date.now()}.${exportFormat}`;
+      link.download = `cktoolkit-snap-${Date.now()}.${exportFormat}`;
       link.href = dataUrl;
       link.click();
     } catch (err) {

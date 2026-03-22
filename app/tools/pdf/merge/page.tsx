@@ -180,7 +180,7 @@ export default function MergePdfPage() {
               ) : (
                 <a
                   href={mergedPdfUrl}
-                  download="onetoolkit_merged.pdf"
+                  download="cktoolkit_merged.pdf"
                   className="w-full sm:w-auto flex items-center justify-center gap-2 bg-green-600 text-white px-8 py-3.5 rounded-xl font-bold hover:bg-green-700 transition-all shadow-md active:scale-95"
                 >
                   <Download className="h-5 w-5" />

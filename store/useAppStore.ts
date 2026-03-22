@@ -25,7 +25,7 @@ export const useAppStore = create<AppState>()(
         })),
     }),
     {
-      name: 'onetoolkit-storage',
+      name: 'cktoolkit-storage',
     }
   )
 );

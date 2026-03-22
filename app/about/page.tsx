@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About | OneToolkit",
-  description: "Learn more about OneToolkit — your privacy-first, fast, and free digital toolbox for everyday tasks.",
-  keywords: ["about OneToolkit", "privacy-first tools", "how OneToolkit works", "free online utilities"],
+  title: "About | CKToolkit",
+  description: "Learn more about CKToolkit — your privacy-first, fast, and free digital toolbox for everyday tasks.",
+  keywords: ["about CKToolkit", "privacy-first tools", "how CKToolkit works", "free online utilities"],
 };
 
 export default function AboutPage() {

@@ -23,7 +23,7 @@ export default function Footer() {
           <div className="flex flex-col gap-4 col-span-1">
             <Link href="/" className="flex items-center gap-3 group">
               <div className="relative h-8 w-8 shrink-0">
-                <Image src="/logo.png" alt="OneToolkit Logo" fill className="object-contain" />
+                <Image src="/logo.png" alt="CKToolkit Logo" fill className="object-contain" />
               </div>
               <span className="font-black text-lg tracking-tight text-[#E2E8F0] group-hover:text-white transition-colors">
                 <span className="font-extrabold">One</span>Toolkit

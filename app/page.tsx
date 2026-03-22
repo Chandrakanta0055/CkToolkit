@@ -150,7 +150,7 @@ export default function Home() {
                 <BookOpen className="h-5 w-5 text-white" />
               </div>
               <div>
-                <p className="font-black text-white text-sm">New to OneToolkit?</p>
+                <p className="font-black text-white text-sm">New to CKToolkit?</p>
                 <p className="text-[#94A3B8] text-xs leading-snug mt-0.5">Read our step-by-step guide covering all 16 tools with tips &amp; tricks.</p>
               </div>
             </div>
@@ -281,7 +281,7 @@ export default function Home() {
              <span className="text-[10px] font-black uppercase tracking-[0.3em]">Optimized</span>
           </div>
         </div>
-        <p className="text-[9px] font-black uppercase tracking-[0.5em] text-white/20">© 2026 OneToolkit Labs</p>
+        <p className="text-[9px] font-black uppercase tracking-[0.5em] text-white/20">© 2026 CKToolkit Labs</p>
       </footer>
     </div>
   );

@@ -6,7 +6,7 @@ import { Download, Link as LinkIcon, Image as ImageIcon } from 'lucide-react';
 import { QRCodeSVG } from 'qrcode.react';
 
 export default function QrGeneratorPage() {
-  const [text, setText] = useState('https://onetoolkit.com');
+  const [text, setText] = useState('https://cktoolkit.com');
   const [size, setSize] = useState(256);
   const [fgColor, setFgColor] = useState('#09090b');
   const [bgColor, setBgColor] = useState('#ffffff');
@@ -29,7 +29,7 @@ export default function QrGeneratorPage() {
         
         const pngFile = canvas.toDataURL('image/png');
         const downloadLink = document.createElement('a');
-        downloadLink.download = 'onetoolkit-qrcode.png';
+        downloadLink.download = 'cktoolkit-qrcode.png';
         downloadLink.href = pngFile;
         downloadLink.click();
       }

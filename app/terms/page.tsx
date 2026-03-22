@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms of Service | OneToolkit",
-  description: "Terms of Service for using OneToolkit.",
+  title: "Terms of Service | CKToolkit",
+  description: "Terms of Service for using CKToolkit.",
 };
 
 export default function TermsPage() {
@@ -28,14 +28,14 @@ export default function TermsPage() {
           <section>
             <h2 className="text-lg font-black text-white uppercase tracking-widest mb-4">01. Acceptance</h2>
             <p>
-              By accessing OneToolkit, you agree to use our services responsibly and in accordance with these simple terms.
+              By accessing CKToolkit, you agree to use our services responsibly and in accordance with these simple terms.
             </p>
           </section>
 
           <section>
             <h2 className="text-lg font-black text-white uppercase tracking-widest mb-4">02. "As Is" Service</h2>
             <p>
-              OneToolkit is provided "as is" and "as available". While we strive for 100% accuracy and uptime, we make no warranties regarding the output or reliability of individual tools. Always verify critical data separately.
+              CKToolkit is provided "as is" and "as available". While we strive for 100% accuracy and uptime, we make no warranties regarding the output or reliability of individual tools. Always verify critical data separately.
             </p>
           </section>
 
@@ -49,12 +49,12 @@ export default function TermsPage() {
           <section>
             <h2 className="text-lg font-black text-white uppercase tracking-widest mb-4">04. Liability</h2>
             <p>
-              Since all processing happens on your local device, OneToolkit is not liable for any data loss, file corruption, or hardware issues that may occur during the use of our browser-based tools. 
+              Since all processing happens on your local device, CKToolkit is not liable for any data loss, file corruption, or hardware issues that may occur during the use of our browser-based tools. 
             </p>
           </section>
 
           <section className="text-center pt-8 border-t border-white/5">
-             <p className="text-xs">Enjoy using OneToolkit responsibly! 🚀</p>
+             <p className="text-xs">Enjoy using CKToolkit responsibly! 🚀</p>
           </section>
         </div>
       </div>

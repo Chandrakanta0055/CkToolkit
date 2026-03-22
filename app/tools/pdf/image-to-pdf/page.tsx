@@ -101,7 +101,7 @@ export default function ImageToPdfPage() {
         pdf.addImage(images[i].url, imgType, x, y, renderWidth, renderHeight);
       }
       
-      pdf.save('onetoolkit-images.pdf');
+      pdf.save('cktoolkit-images.pdf');
     } catch (err) {
       console.error('Error generating PDF:', err);
       alert('An error occurred while generating the PDF.');
