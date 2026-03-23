@@ -64,6 +64,34 @@ const StatCard = ({ label, value, icon: Icon, colorBg, colorText }: any) => (
             spellCheck={true}
           />
         </div>
+
+        {/* SEO Content Section */}
+        <div className="mt-8 bg-card/50 border border-border/50 rounded-2xl p-6 md:p-10 space-y-8">
+          <div>
+            <h2 className="text-xl md:text-2xl font-black mb-4 tracking-tight">Free Online Word Counter & Character Counter</h2>
+            <p className="text-secondary-foreground/80 leading-relaxed text-sm md:text-base">
+              CkToolKit's Word Counter is a fast, free, and private online utility designed to help you analyze your text in real-time. Whether you are writing a college essay, a professional email, or crafting the perfect tweet that fits within the character limit, our tool instantly counts words, characters (with and without spaces), sentences, paragraphs, and even estimates the reading time.
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="space-y-3">
+              <h3 className="text-lg font-bold text-primary">Why use a Word Counter?</h3>
+              <ul className="space-y-2 text-sm text-secondary-foreground/80 list-disc list-inside">
+                <li><strong className="text-secondary-foreground">Social Media Limits:</strong> Ensure your posts fit within Twitter (280 characters), Instagram, or LinkedIn character limits.</li>
+                <li><strong className="text-secondary-foreground">Academic Writing:</strong> Easily meet strict minimum or maximum word counts for essays and research papers.</li>
+                <li><strong className="text-secondary-foreground">SEO Optimization:</strong> Track your word count to ensure your blog posts hit the optimal length for Google rankings.</li>
+              </ul>
+            </div>
+            
+            <div className="space-y-3">
+              <h3 className="text-lg font-bold text-primary">100% Private & Secure</h3>
+              <p className="text-sm text-secondary-foreground/80 leading-relaxed">
+                Unlike other online character counters, CkToolKit runs entirely in your browser. <strong>We never upload your text to any servers.</strong> Whatever you type or paste into this word counter stays strictly on your device, ensuring maximum privacy for your sensitive documents and creative writing.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </ToolLayout>
   );

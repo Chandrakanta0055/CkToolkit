@@ -320,6 +320,33 @@ export default function DataTransformerPage() {
             </div>
           </div>
         )}
+
+        {/* SEO Content Section */}
+        <div className="mt-8 bg-card/50 border border-border/50 rounded-2xl p-6 md:p-10 space-y-8">
+          <div>
+            <h2 className="text-xl md:text-2xl font-black mb-4 tracking-tight">Universal JSON, CSV, and Excel Converter</h2>
+            <p className="text-secondary-foreground/80 leading-relaxed text-sm md:text-base">
+              The Universal Data Transformer is a powerful, developer-first tool designed to instantly seamlessly convert between different data formats. Whether you need to convert a complex JSON API response into a readable CSV for a spreadsheet, or turn a client's Excel (`.xlsx`) file into JSON for your database, this tool handles it effortlessly right in your browser.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="space-y-3">
+              <h3 className="text-lg font-bold text-primary">Core Capabilities</h3>
+              <ul className="space-y-2 text-sm text-secondary-foreground/80 list-disc list-inside">
+                <li><strong className="text-secondary-foreground">JSON to CSV:</strong> Flatten complex objects into spreadsheet-ready rows.</li>
+                <li><strong className="text-secondary-foreground">Excel to JSON:</strong> Extract spreadsheet data into clean, structured JSON arrays.</li>
+                <li><strong className="text-secondary-foreground">Live Data Viewer:</strong> Instantly search, filter, and preview massive datasets without Excel.</li>
+              </ul>
+            </div>
+            <div className="space-y-3">
+              <h3 className="text-lg font-bold text-primary">Designed for Data Privacy</h3>
+              <p className="text-sm text-secondary-foreground/80 leading-relaxed">
+                Working with sensitive customer datasets? Our Data Transformer processes everything natively via JavaScript on your own machine. <strong>You never upload your files to our servers</strong>, eliminating the risk of data breaches common with other online CSV/JSON converters.
+              </p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </ToolLayout>
   );

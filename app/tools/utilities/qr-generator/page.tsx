@@ -144,6 +144,32 @@ export default function QrGeneratorPage() {
           </button>
         </div>
 
+        {/* SEO Content Section */}
+        <div className="lg:col-span-2 mt-8 bg-card/50 border border-border/50 rounded-2xl p-6 md:p-10 space-y-8 w-full">
+          <div>
+            <h2 className="text-xl md:text-2xl font-black mb-4 tracking-tight">Free Custom QR Code Generator</h2>
+            <p className="text-secondary-foreground/80 leading-relaxed text-sm md:text-base">
+              Easily bridge the gap between the physical and digital world with CkToolKit's advanced QR Code Generator. Create scannable, high-resolution QR codes for websites, WiFi passwords, contact cards, or plain text. Our dynamic editor lets you customize the colors and scale the image size to perfectly match your branding.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="space-y-3">
+              <h3 className="text-lg font-bold text-primary">Common Use Cases</h3>
+              <ul className="space-y-2 text-sm text-secondary-foreground/80 list-disc list-inside">
+                <li><strong className="text-secondary-foreground">Digital Menus & Flyers:</strong> Print QR codes so customers can scan and instantly view your website on their phones.</li>
+                <li><strong className="text-secondary-foreground">Business Cards:</strong> Link directly to your LinkedIn or portfolio.</li>
+                <li><strong className="text-secondary-foreground">WiFi Sharing:</strong> Create a code guests can scan to join your network without typing a password.</li>
+              </ul>
+            </div>
+            <div className="space-y-3">
+              <h3 className="text-lg font-bold text-primary">No Expiration Dates & 100% Free</h3>
+              <p className="text-sm text-secondary-foreground/80 leading-relaxed">
+                Many online QR code makers trick you into creating "dynamic" codes that expire unless you pay a monthly subscription. Our tool generates <strong>static QR codes</strong> that are permanently encoded with your data. They will never expire, require no subscription, and are completely free forever.
+              </p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </ToolLayout>
   );

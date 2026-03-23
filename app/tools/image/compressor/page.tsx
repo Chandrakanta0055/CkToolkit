@@ -162,6 +162,32 @@ export default function ImageCompressorPage() {
             </div>
           </div>
         )}
+        
+        {/* SEO Content Section */}
+        <div className="mt-8 bg-card/50 border border-border/50 rounded-2xl p-6 md:p-10 space-y-8">
+          <div>
+            <h2 className="text-xl md:text-2xl font-black mb-4 tracking-tight">Free Online Image Compressor</h2>
+            <p className="text-secondary-foreground/80 leading-relaxed text-sm md:text-base">
+              CkToolKit's Image Compressor is the fastest way to reduce the file size of your JPG, PNG, and WebP images without losing visual quality. Perfect for web developers looking to optimize website loading speeds, or anyone needing to shrink an image to fit email attachment limits. Our smart compression algorithm ensures maximum quality retention at a fraction of the original size.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="space-y-3">
+              <h3 className="text-lg font-bold text-primary">Why compress images?</h3>
+              <ul className="space-y-2 text-sm text-secondary-foreground/80 list-disc list-inside">
+                <li><strong className="text-secondary-foreground">Faster Websites:</strong> Smaller images dramatically improve your PageSpeed Insights and Core Web Vitals.</li>
+                <li><strong className="text-secondary-foreground">Save Storage:</strong> Free up space on your phone, hard drive, or cloud storage.</li>
+              </ul>
+            </div>
+            <div className="space-y-3">
+              <h3 className="text-lg font-bold text-primary">Secure Client-Side Processing</h3>
+              <p className="text-sm text-secondary-foreground/80 leading-relaxed">
+                Your images are <strong>never uploaded to the cloud</strong>. All compression happens locally inside your browser using HTML5 Canvas technology, meaning your private photos remain strictly on your own device.
+              </p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </ToolLayout>
   );

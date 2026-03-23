@@ -16,32 +16,45 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://ck-toolkit.vercel.app"),
   title: {
     default: "CkToolKit — Free Online Tools for Developers & Creators",
     template: "%s | CkToolKit",
   },
-  description: "A premium suite of free, private, and fast online tools. Image manipulation, PDF tools, developer utilities and more.",
-  keywords: ["online tools", "developer tools", "image compressor", "pdf merger", "cktoolkit"],
-  authors: [{ name: "CkToolKit" }],
+  description: "A premium suite of free, private, and fast online tools. Compress images, format JSON, generate QR codes, count words, and calculate reading time directly in your browser.",
+  keywords: [
+    "online tools", "developer tools", "image compressor", "pdf merger", "json formatter", 
+    "word counter", "character counter", "free online utilities", "base64 encoder",
+    "qr code generator", "password generator", "image converter", "png to jpg",
+    "reading time calculator", "text diff checker", "cktoolkit"
+  ],
+  authors: [{ name: "CkToolKit", url: "https://ck-toolkit.vercel.app" }],
   creator: "CkToolKit",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://cktoolkit.com",
+    url: "https://ck-toolkit.vercel.app",
     siteName: "CkToolKit",
     title: "CkToolKit — Free Online Tools for Everyone",
-    description: "Compress images, merge PDFs, format JSON, generate QR codes & more. Free, fast, and 100% private — everything runs in your browser.",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "CkToolKit" }],
+    description: "Compress images, format JSON, count words, generate QR codes & more. Free, fast, and 100% private.",
+    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "CkToolKit Preview" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "CkToolKit — Free Online Tools",
-    description: "15+ free tools for developers & creators. 100% private, no uploads.",
+    description: "15+ completely free tools for developers & creators running instantly in your browser.",
     images: ["/og-image.png"],
   },
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
 };
 

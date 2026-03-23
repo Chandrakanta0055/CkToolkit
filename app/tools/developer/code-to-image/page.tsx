@@ -292,6 +292,33 @@ export default function CodeToImagePage() {
             </div>
           </div>
         </div>
+
+        {/* SEO Content Section */}
+        <div className="lg:col-span-12 mt-8 bg-card/50 border border-border/50 rounded-2xl p-6 md:p-10 space-y-8 block w-full">
+          <div>
+            <h2 className="text-xl md:text-2xl font-black mb-4 tracking-tight">Beautiful Code Sandbox & Screenshot Generator</h2>
+            <p className="text-secondary-foreground/80 leading-relaxed text-sm md:text-base">
+              The Code-to-Image Snap tool allows developers to transform boring source code into stunning, shareable images. Create beautiful mockups of your code snippets with macOS-style window controls, vibrant glassmorphic backgrounds, and professional syntax highlighting. Perfect for sharing code on Twitter, LinkedIn, Instagram, or including in your technical blog posts and documentation.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="space-y-3">
+              <h3 className="text-lg font-bold text-primary">Customization Options</h3>
+              <ul className="space-y-2 text-sm text-secondary-foreground/80 list-disc list-inside">
+                <li><strong className="text-secondary-foreground">Themes:</strong> Choose from popular IDE themes like Dracula, One Dark, and VS Code.</li>
+                <li><strong className="text-secondary-foreground">Languages:</strong> Automatic syntax highlighting for JS, Python, HTML, Rust, and more.</li>
+                <li><strong className="text-secondary-foreground">Export:</strong> Download instantly in high-res PNG or compressed JPG.</li>
+              </ul>
+            </div>
+            <div className="space-y-3">
+              <h3 className="text-lg font-bold text-primary">Why use image snippets?</h3>
+              <p className="text-sm text-secondary-foreground/80 leading-relaxed">
+                Plain text code often loses its formatting when pasted into social media platforms. By converting your code to an image, you guarantee that your indentation and syntax colors are perfectly preserved, making your technical content much more engaging and readable for your audience.
+              </p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </ToolLayout>
   );

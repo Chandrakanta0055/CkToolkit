@@ -139,6 +139,33 @@ export default function ImageConverterPage() {
             </div>
           </div>
         )}
+
+        {/* SEO Content Section */}
+        <div className="mt-8 bg-card/50 border border-border/50 rounded-2xl p-6 md:p-10 space-y-8">
+          <div>
+            <h2 className="text-xl md:text-2xl font-black mb-4 tracking-tight">Free Online Image Format Converter</h2>
+            <p className="text-secondary-foreground/80 leading-relaxed text-sm md:text-base">
+              Need to convert a PNG to JPG, or a JPG to WebP? CkToolKit's universal Image Converter makes changing image formats completely effortless. Whether you need a transparent PNG for a design project or a next-gen WebP image for modern web development, our tool converts your files instantly in the browser.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="space-y-3">
+              <h3 className="text-lg font-bold text-primary">Supported Formats</h3>
+              <ul className="space-y-2 text-sm text-secondary-foreground/80 list-disc list-inside">
+                <li><strong className="text-secondary-foreground">JPG/JPEG:</strong> Best for photographs and reducing file sizes.</li>
+                <li><strong className="text-secondary-foreground">PNG:</strong> Perfect for graphics requiring transparent backgrounds.</li>
+                <li><strong className="text-secondary-foreground">WebP:</strong> The modern standard for high-quality, ultra-compressed web images.</li>
+              </ul>
+            </div>
+            <div className="space-y-3">
+              <h3 className="text-lg font-bold text-primary">100% Private Conversion</h3>
+              <p className="text-sm text-secondary-foreground/80 leading-relaxed">
+                Unlike server-based converters that force you to upload your sensitive files, our tool converts your images <strong>directly on your device</strong>. No wait times, no data limits, and absolute privacy guaranteed.
+              </p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </ToolLayout>
   );
