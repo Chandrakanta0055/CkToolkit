@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Instagram } from "lucide-react";
 
 const TOOL_LINKS = [
   { label: "Image Compressor", href: "/tools/image/compressor" },
@@ -80,10 +81,23 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-14 pt-6 border-t border-white/[0.04] flex flex-col md:flex-row justify-between items-center gap-3">
+        <div className="mt-14 pt-6 border-t border-white/[0.04] flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-white/15">
             © {new Date().getFullYear()} CkToolKit Labs · All Rights Reserved
           </p>
+          
+          <div className="flex items-center gap-4">
+            <a 
+              href="https://instagram.com/cktoolkit" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="p-2 rounded-full bg-white/[0.02] border border-white/5 text-white/30 hover:bg-gradient-to-tr hover:from-[#F58529] hover:via-[#DD2A7B] hover:to-[#8134AF] hover:text-white hover:border-transparent transition-all shadow-sm"
+              title="Follow us on Instagram"
+            >
+              <Instagram className="h-4 w-4" />
+            </a>
+          </div>
+
           <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-white/15">
             Made with ♥ for the Open Web
           </p>
