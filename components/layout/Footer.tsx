@@ -4,10 +4,10 @@ import Image from "next/image";
 const TOOL_LINKS = [
   { label: "Image Compressor", href: "/tools/image/compressor" },
   { label: "Image Converter", href: "/tools/image/converter" },
-  { label: "JSON Formatter", href: "/tools/developer/json-formatter" },
+  { label: "Code-to-Image Snap", href: "/tools/developer/code-to-image" },
+  { label: "Word Counter", href: "/tools/utilities/word-counter" },
+  { label: "Universal Data Transformer", href: "/tools/utilities/data-transformer" },
   { label: "QR Code Generator", href: "/tools/utilities/qr-generator" },
-  { label: "PDF Merger", href: "/tools/pdf/merge" },
-  { label: "Password Generator", href: "/tools/utilities/password-generator" },
 ];
 
 export default function Footer() {
